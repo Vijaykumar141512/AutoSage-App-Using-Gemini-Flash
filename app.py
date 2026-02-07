@@ -10,7 +10,7 @@ from PIL import Image
 
 
 # Configure Gemini API Key
-
+# api key is masked to prevent from misuse
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 
@@ -93,5 +93,6 @@ if submit:
 
     st.header("The details about the Vehicle are as follow:")
     st.write(response)
+
 
 
