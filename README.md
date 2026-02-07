@@ -5,6 +5,8 @@ This app helps users get vehicle-related suggestions, information, and guidance 
 
 The application is developed to understand how AI models like Gemini Flash can be integrated into real-world applications using Python.
 It also demonstrates the use of environment variables, dependency management, and modular programming.
+
+
 #api key is masked to prevent from misuse
 
 # Features:
