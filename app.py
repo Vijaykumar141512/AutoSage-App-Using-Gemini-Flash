@@ -11,7 +11,7 @@ from PIL import Image
 
 # Configure Gemini API Key
 
-genai.configure(api_key=os.getenv("AIzaSyB08lAo3fQCnS1dQ3LTtsRehhwE0UCC4yE"))
+genai.configure(api_key=os.getenv("AIzaSyB08lAo3fQCnS1dQ3LTtsRehhwE0UCC4yExx"))
 
 
 
@@ -93,3 +93,4 @@ if submit:
 
     st.header("The details about the Vehicle are as follow:")
     st.write(response)
+
